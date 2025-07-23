@@ -2,7 +2,7 @@
 
 # Service
 NAMESPACE = monitoring
-RELEASE_NAME = prometheus-turingpi
+RELEASE_NAME = prometheus-pushgateway-turingpi
 # ENV ?= ### Specify the env to use
 ENV = turingpi
 pod := $$(kubectl get pods -n ${NAMESPACE} |  grep -m1 ${RELEASE_NAME} | cut -d' ' -f1)
