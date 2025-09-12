@@ -1,0 +1,29 @@
+apiVersion: v2
+name: kube-prometheus-stack
+description: A Helm chart for prometheus pushgateway
+home: https://github.com/prometheus/pushgateway
+icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+sources:
+  - https://github.com/prometheus/pushgateway
+dependencies:
+  - name: prometheus-pushgateway
+    repository: https://prometheus-community.github.io/helm-charts
+    version: 3.1.2
+
+type: application
+
+version: 3.1.2
+
+appVersion: v1.11.1
+
+keywords:
+  - pushgateway
+  - prometheus
+
+kubeVersion: ">=1.19.0-0"
+
+annotations:
+  "artifacthub.io/license": Apache-2.0
+  "artifacthub.io/links": |
+    - name: Chart Source
+      url: https://github.com/prometheus-community/helm-charts
