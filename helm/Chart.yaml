@@ -12,9 +12,11 @@ dependencies:
 
 type: application
 
-version: 3.1.2
+# renovate: datasource=helm depName=prometheus-pushgateway repository=https://prometheus-community.github.io/helm-charts
+version: "3.1.2"
 
-appVersion: v1.11.1
+# renovate: datasource=github-releases depName=prometheus/pushgateway
+appVersion: "v1.11.1"
 
 keywords:
   - pushgateway
