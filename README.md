@@ -1,8 +1,6 @@
 # prometheus-pushgateway
 
-[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-prometheus_pushgateway-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/helm-prometheus-pushgateway) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-prometheus_pushgateway-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/helm-prometheus-pushgateway)
-[![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=prometheus-pushgateway&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/prometheus-pushgateway)
+
 
 <!--TOC-->
 
@@ -20,4 +18,4 @@ The installation should be done in two steps:
 ```shell
 #> make dry-run ENV=<ENV>
 #> make install ENV=<ENV>
-```
+``
